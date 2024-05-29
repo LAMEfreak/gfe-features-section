@@ -47,7 +47,7 @@ const features = [
 
 const FeatureGrid = () => {
   return (
-    <div className="grid grid-col-1 justify-center md:grid-cols-2 xl:grid-cols-3 gap-8">
+    <div className="grid justify-center grid-col-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-start">
       {features.map(({ icon, title, description }) => {
         return (
           <FeatureCard icon={icon} title={title} description={description} />
